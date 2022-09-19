@@ -1,0 +1,80 @@
+{
+    "name": "DWI example",
+    "version": "22.09.15",
+    "keywords": [
+        "segmentation",
+        "breast cancer",
+        "modality DWI"
+    ],
+    "shortdesc": "DSS DWI service",
+    "longdesc": "Given dwi image(s), run segmentation algorithm",
+    "url": "https://10.88.30.1:8080",
+    "tags": [
+        {
+            "name": "DWI",
+            "type": "MainImage",
+            "hint": "DWI Image",
+            "required": true
+        },
+        {
+            "name": "DWI0",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 0",
+            "required": false
+        },
+        {
+            "name": "DWI1",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 1",
+            "required": false
+        },
+        {
+            "name": "DWI2",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 2",
+            "required": false
+        },
+        {
+            "name": "DWI3",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 3",
+            "required": false
+        },
+        {
+            "name": "DWI4",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 4",
+            "required": false
+        },
+        {
+            "name": "DWI5",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 5",
+            "required": false
+        },
+        {
+            "name": "DWI6",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 6",
+            "required": false
+        },
+        {
+            "name": "DWI7",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 7",
+            "required": false
+        },
+        {
+            "name": "DWI8",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 8",
+            "required": false
+        },
+        {
+            "name": "DWI9",
+            "type": "OverlayImage",
+            "hint": "add DWI Image 9",
+            "required": false
+        }
+    ]
+}
